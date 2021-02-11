@@ -1,0 +1,20 @@
+{
+  "name": "ejemplodaw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "sudo sh ./../scripts/deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imanol92/ejemplodaw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imanol92/ejemplodaw/issues"
+  },
+  "homepage": "https://github.com/imanol92/ejemplodaw#readme"
+}
