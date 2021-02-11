@@ -30,8 +30,7 @@ $ps = $pdo->prepare($sql);
 $ps->execute($params);
 $result = $ps->columnCount()>0? $ps->fetchAll(\PDO::FETCH_ASSOC): $ps->rowCount(); 
 
-echo '<h1>resultado</h1>';
-// var_dump($result);
+echo '<h1 class="c-titulo">Resultado</h1>';
 
 foreach ($result as $key => $value) {
     foreach ($value as $ky => $val) {
